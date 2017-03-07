@@ -182,11 +182,16 @@
     <Compile Include="Migrations\201703072019074_SeedUsers.Designer.cs">
       <DependentUpon>201703072019074_SeedUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703072039164_ChangeModelNames.cs" />
+    <Compile Include="Migrations\201703072039164_ChangeModelNames.Designer.cs">
+      <DependentUpon>201703072039164_ChangeModelNames.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\RoleName.cs" />
     <Compile Include="Models\SalaryGross.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -474,7 +479,9 @@
     <Content Include="Views\Employees\Delete.cshtml" />
     <Content Include="Views\Employees\Details.cshtml" />
     <Content Include="Views\Employees\Edit.cshtml" />
-    <Content Include="Views\Employees\Index.cshtml" />
+    <Content Include="Views\Employees\IndexAdmin.cshtml" />
+    <Content Include="Views\Employees\IndexGuest.cshtml" />
+    <Content Include="Views\Employees\DetailsReadOnly.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -493,6 +500,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703072019074_SeedUsers.resx">
       <DependentUpon>201703072019074_SeedUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703072039164_ChangeModelNames.resx">
+      <DependentUpon>201703072039164_ChangeModelNames.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

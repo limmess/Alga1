@@ -30,6 +30,6 @@ namespace Alga1.Models
             return new ApplicationDbContext();
         }
 
-        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Employee> Employee { get; set; }
     }
 }

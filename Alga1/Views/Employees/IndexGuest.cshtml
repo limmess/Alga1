@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Alga1.Models.Employee>
+
+@{
+    ViewBag.Title = "Employee list";
+}
+
+<h2>Sąrašas</h2>
+
+<div><p></p></div>
+
+<table id="table_id" class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.Surname)</th>
+            <th>@Html.DisplayNameFor(model => model.SalaryGross)</th>
+            <th>Veiksmai</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Surname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SalaryGross)
+                </td>
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@section scripts
+{
+    <script>
+        $(document).ready(function() {
+            $("#table_id").DataTable({
+                columnsDefs: [
+                    {
+                        targets: 2,
+                        type: "num-fmt"
+
+                    }
+                ],
+                language: {
+                    decimal: ","
+                }
+            });
+        })
+    </script>}

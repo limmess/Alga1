@@ -8,32 +8,32 @@ namespace Alga1.Models
 
         [Required]
         [StringLength(50)]
-        public string Vardas { get; set; }
+        public string Name { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string Pavarde { get; set; }
+        public string Surname { get; set; }
 
         [Required]
         [Display(Name = "Salary NET")]
         [DataType(DataType.Currency)]
-        public decimal AlgaNet { get; set; }
+        public decimal SalaryNet { get; set; }
 
         [Required]
         [Range(0, 10)]
         [Display(Name = "Number of Children")]
-        public int VaikuSkaicius { get; set; }
+        public int ChildrenNo { get; set; }
 
         [Display(Name = "Raises Children Alone")]
-        public bool AuginaVaikusVienas { get; set; }
+        public bool RaisesChildrenAlone { get; set; }
 
 
         [Display(Name = "Salary Gross")]
         [DataType(DataType.Currency)]
-        public decimal AlgaGross => Models.SalaryGross.Gross(AlgaNet, VaikuSkaicius, AuginaVaikusVienas);
+        public decimal SalaryGross => Models.SalaryGross.Gross(SalaryNet, ChildrenNo, RaisesChildrenAlone);
 
 
         [Display(Name = "Avatar")]
-        public byte[] AsmuoImage { get; set; }
+        public byte[] EmployeePhoto { get; set; }
     }
 }
