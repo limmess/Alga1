@@ -1,0 +1,66 @@
+﻿@model Alga1.Models.Employee
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Employee</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Vardas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vardas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pavarde)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pavarde)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AlgaNet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AlgaNet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VaikuSkaicius)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VaikuSkaicius)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AuginaVaikusVienas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AuginaVaikusVienas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AsmuoImage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AsmuoImage)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
