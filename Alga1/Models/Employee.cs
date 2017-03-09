@@ -7,11 +7,13 @@ namespace Alga1.Models
         public int Id { get; set; }
 
         [Required]
-        [StringLength(50)]
+        [StringLength(50, MinimumLength = 1)]
+        [RegularExpression(@"^[a-zA-Z''-'\s]{1,50}$", ErrorMessage = "Characters are not allowed.")]
         public string Name { get; set; }
 
         [Required]
-        [StringLength(50)]
+        [StringLength(50, MinimumLength = 1)]
+        [RegularExpression(@"^[a-zA-Z''-'\s]{1,50}$", ErrorMessage = "Characters are not allowed.")]
         public string Surname { get; set; }
 
         [Required]
@@ -35,5 +37,10 @@ namespace Alga1.Models
 
         [Display(Name = "Avatar")]
         public byte[] EmployeePhoto { get; set; }
+
+
+        public virtual ApplicationUser User { get; set; }
+
+
     }
 }

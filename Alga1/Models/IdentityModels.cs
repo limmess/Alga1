@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -16,6 +17,11 @@ namespace Alga1.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        public virtual ICollection<Employee> Employees { get; set; }
+
+
+
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>

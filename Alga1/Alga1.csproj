@@ -187,6 +187,10 @@
     <Compile Include="Migrations\201703072039164_ChangeModelNames.Designer.cs">
       <DependentUpon>201703072039164_ChangeModelNames.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703091828549_LinkIdentytyToEmployees.cs" />
+    <Compile Include="Migrations\201703091828549_LinkIdentytyToEmployees.Designer.cs">
+      <DependentUpon>201703091828549_LinkIdentytyToEmployees.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Employee.cs" />
@@ -356,6 +360,7 @@
     <Content Include="Content\DataTables\css\semanticui.scss" />
     <Content Include="Content\DataTables\css\mixins.scss" />
     <Content Include="Content\DataTables\css\common.scss" />
+    <Content Include="ClassDiagram1.cd" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\DataTables\autoFill.bootstrap.js" />
     <Content Include="Scripts\DataTables\autoFill.bootstrap.min.js" />
@@ -508,6 +513,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703072039164_ChangeModelNames.resx">
       <DependentUpon>201703072039164_ChangeModelNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703091828549_LinkIdentytyToEmployees.resx">
+      <DependentUpon>201703091828549_LinkIdentytyToEmployees.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
