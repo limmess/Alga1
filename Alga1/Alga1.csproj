@@ -191,6 +191,18 @@
     <Compile Include="Migrations\201703091828549_LinkIdentytyToEmployees.Designer.cs">
       <DependentUpon>201703091828549_LinkIdentytyToEmployees.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703111422027_ChangeModel.cs" />
+    <Compile Include="Migrations\201703111422027_ChangeModel.Designer.cs">
+      <DependentUpon>201703111422027_ChangeModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703111456283_ChangeModel1.cs" />
+    <Compile Include="Migrations\201703111456283_ChangeModel1.Designer.cs">
+      <DependentUpon>201703111456283_ChangeModel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703111602549_ChangeModel2.cs" />
+    <Compile Include="Migrations\201703111602549_ChangeModel2.Designer.cs">
+      <DependentUpon>201703111602549_ChangeModel2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Employee.cs" />
@@ -516,6 +528,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703091828549_LinkIdentytyToEmployees.resx">
       <DependentUpon>201703091828549_LinkIdentytyToEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703111422027_ChangeModel.resx">
+      <DependentUpon>201703111422027_ChangeModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703111456283_ChangeModel1.resx">
+      <DependentUpon>201703111456283_ChangeModel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703111602549_ChangeModel2.resx">
+      <DependentUpon>201703111602549_ChangeModel2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

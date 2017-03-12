@@ -148,19 +148,16 @@ namespace Alga1.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, Employees = model.Employees };
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, Employee = model.Employee };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-
                     ////temp code
 
                     //var roleStore = new RoleStore<IdentityRole>(new ApplicationDbContext());
                     //var roleManager = new RoleManager<IdentityRole>(roleStore);
                     //await roleManager.CreateAsync(new IdentityRole("Admin"));
                     //await UserManager.AddToRoleAsync(user.Id, "Admin");
-
-
 
                     await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
 

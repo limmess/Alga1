@@ -39,8 +39,5 @@ namespace Alga1.Models
         public byte[] EmployeePhoto { get; set; }
 
 
-        public virtual ApplicationUser User { get; set; }
-
-
     }
 }

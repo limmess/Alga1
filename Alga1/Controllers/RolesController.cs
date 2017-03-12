@@ -7,12 +7,11 @@ using System.Web.Mvc;
 
 namespace Alga.Controllers.Web
 {
+    [Authorize(Roles = RoleName.Admin)]
     public class RolesController : Controller
     {
 
         private ApplicationDbContext db = new ApplicationDbContext();
-
-
 
         public ActionResult Index()
         {
@@ -24,6 +23,7 @@ namespace Alga.Controllers.Web
 
 
         // GET: /Roles/Create
+
         public ActionResult Create()
         {
             return View();
@@ -60,7 +60,7 @@ namespace Alga.Controllers.Web
         // POST: /Roles/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(Microsoft.AspNet.Identity.EntityFramework.IdentityRole role)
+        public ActionResult Edit(IdentityRole role)
         {
             try
             {
@@ -84,8 +84,10 @@ namespace Alga.Controllers.Web
             return RedirectToAction("Index");
         }
 
+
         public ActionResult ManageUserRoles()
         {
+
             // prepopulate roles and usernames for the view dropdown
             var list = db.Roles.OrderBy(r => r.Name).ToList().Select(rr => new SelectListItem { Value = rr.Name.ToString(), Text = rr.Name }).ToList();
             ViewBag.Roles = list;
@@ -97,13 +99,11 @@ namespace Alga.Controllers.Web
                     .ToList();
             ViewBag.UserNames = userNames;
 
-            return View();
 
-            //var pavardes = db.Asmuos.OrderBy(n => n.Pavarde).ToList().Select(nn => new SelectListItem { Value = nn.Pavarde.ToString(), Text = nn.Pavarde }).ToList();
+            var pavardes = db.Employee.OrderBy(n => n.Name).ToList().Select(nn => new SelectListItem { Value = nn.Name.ToString(), Text = nn.Name }).ToList();
             //ViewBag.Pavardes = pavardes;
 
-
-
+            return View();
         }
 
         [HttpPost]

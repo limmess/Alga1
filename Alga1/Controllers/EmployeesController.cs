@@ -1,6 +1,6 @@
 ﻿using Alga1.Models;
+using Microsoft.AspNet.Identity;
 using System;
-using System.Data;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -9,6 +9,7 @@ using System.Web.Mvc;
 
 namespace Alga1.Controllers
 {
+    [Authorize(Roles = RoleName.Admin + "," + RoleName.Employee + "," + RoleName.Manager)]
     public class EmployeesController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
@@ -16,19 +17,21 @@ namespace Alga1.Controllers
         #region Index Method
 
         // GET: Employees
-        public ActionResult Index(string searchString)
+        public ActionResult Index()
         {
-            var names = from v in db.Employee
-                        select v;
-
-            if (!String.IsNullOrEmpty(searchString))
-            {
-                names = names.Where(s => s.Name.Contains(searchString) || s.Surname.Contains(searchString));
-
-            }
+            var names = db.Employee.ToList();
 
             if (User.IsInRole(RoleName.Admin))
                 return View("IndexAdmin", names);
+
+            if (User.IsInRole(RoleName.Employee))
+            {
+                var loggedEmployeeId = db.Users.Find(User.Identity.GetUserId()).Employee.Id;
+                var employee = db.Employee.Where(c => c.Id == loggedEmployeeId).ToList();
+
+                return View("IndexGuest", employee);
+            }
+
 
             return View("IndexGuest", names);
         }
