@@ -4,28 +4,39 @@ namespace Alga1.Models
 {
     public class SalaryGross
     {
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(typeof(SalaryGross));
+
         public static decimal Gross(decimal salaryNet, int childrenNo, bool raisesAlone)
         {
-            decimal pnpd = 100;
-            if (raisesAlone == true)
+            try
             {
-                pnpd = 200;
+                decimal pnpd = 100;
+                if (raisesAlone == true)
+                {
+                    pnpd = 200;
+                }
+
+                decimal x = (salaryNet - 75 - 0.15m * childrenNo * pnpd) / 0.685m;
+
+                decimal npd = 310 - 0.5m * (x - 380m);
+                if (npd >= 310m) npd = 310m;
+                if (npd <= 0m) npd = 0m;
+
+                decimal s = (0.15m * salaryNet - 0.1365m * (npd + pnpd * childrenNo)) / 0.76m;
+                if (s <= 0m) s = 0m;
+
+                decimal gross = (salaryNet + s) / 0.91m;
+                decimal grossRound = Math.Round(gross, 2, MidpointRounding.AwayFromZero);
+                return grossRound;
             }
-
-            decimal x = (salaryNet - 75 - 0.15m * childrenNo * pnpd) / 0.685m;
-
-            decimal npd = 310 - 0.5m * (x - 380m);
-            if (npd >= 310m) npd = 310m;
-            if (npd <= 0m) npd = 0m;
-
-            decimal s = (0.15m * salaryNet - 0.1365m * (npd + pnpd * childrenNo)) / 0.76m;
-            if (s <= 0m) s = 0m;
-
-            decimal gross = (salaryNet + s) / 0.91m;
-            decimal grossRound = Math.Round(gross, 2, MidpointRounding.AwayFromZero);
-            return grossRound;
+            catch (Exception ex)
+            {
+                log.Error("Error occured in Salary Gross calculations : " + ex);
+                return 0;
+            }
         }
     }
+
 }
 
 

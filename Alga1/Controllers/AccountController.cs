@@ -12,6 +12,8 @@ namespace Alga1.Controllers
     [Authorize]
     public class AccountController : Controller
     {
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(typeof(AccountController));
+
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
@@ -65,9 +67,11 @@ namespace Alga1.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
         {
+            log.Info("User login atempt: " + model.Email);
             if (!ModelState.IsValid)
             {
                 return View(model);
+
             }
 
             // This doesn't count login failures towards account lockout
@@ -76,7 +80,11 @@ namespace Alga1.Controllers
             switch (result)
             {
                 case SignInStatus.Success:
-                    return RedirectToLocal(returnUrl);
+                    {
+                        log.Info("User " + model.Email + " logged in");
+                        return RedirectToLocal(returnUrl);
+                    }
+
                 case SignInStatus.LockedOut:
                     return View("Lockout");
                 case SignInStatus.RequiresVerification:
@@ -146,6 +154,7 @@ namespace Alga1.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Register(RegisterViewModel model)
         {
+            log.Info("New user register atempt: " + model.Email);
             if (ModelState.IsValid)
             {
                 var user = new ApplicationUser { UserName = model.Email, Email = model.Email, Employee = model.Employee };
@@ -166,7 +175,7 @@ namespace Alga1.Controllers
                     // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
                     // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                     // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
-
+                    log.Info("new user created: " + model.Email);
                     return RedirectToAction("Index", "Home");
                 }
                 AddErrors(result);

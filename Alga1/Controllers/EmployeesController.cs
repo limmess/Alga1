@@ -9,9 +9,13 @@ using System.Web.Mvc;
 
 namespace Alga1.Controllers
 {
+
+
     [Authorize(Roles = RoleName.Admin + "," + RoleName.Employee + "," + RoleName.Manager)]
     public class EmployeesController : Controller
     {
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(typeof(EmployeesController));
+
         private ApplicationDbContext db = new ApplicationDbContext();
 
         #region Index Method
@@ -19,16 +23,24 @@ namespace Alga1.Controllers
         // GET: Employees
         public ActionResult Index()
         {
+            log.Debug("Action Index has been fired.");
             var names = db.Employee.ToList();
 
+            log.Debug("Eployee list been read from database");
+
             if (User.IsInRole(RoleName.Admin))
+            {
+                log.Debug("Check if user role is Admin");
                 return View("IndexAdmin", names);
+            }
+
 
             if (User.IsInRole(RoleName.Employee))
             {
+                log.Debug("Check if user role is Employee");
                 var loggedEmployeeId = db.Users.Find(User.Identity.GetUserId()).Employee.Id;
                 var employee = db.Employee.Where(c => c.Id == loggedEmployeeId).ToList();
-
+                log.Debug("Got current logged EmployeeId" + loggedEmployeeId.ToString());
                 return View("IndexGuest", employee);
             }
 
@@ -86,12 +98,15 @@ namespace Alga1.Controllers
         Employee employee, HttpPostedFileBase fileImage)
 
         {
+            log.Info("Request to create new user from " + User.Identity.GetUserId());
             if (!ModelState.IsValid) return View(employee);
 
             if (fileImage != null)
             {
+                log.Info("File is attached to create request");
                 if (fileImage.ContentLength > 0 && fileImage.ContentLength < 512000)
                 {
+                    log.Info("User uploaded file: " + fileImage.FileName);
                     var fileExt = Path.GetExtension(fileImage.FileName);
                     if (fileExt != null && (fileExt.ToLower().EndsWith(".jpg") && IsFileImage(fileImage)))
                     {
@@ -101,7 +116,7 @@ namespace Alga1.Controllers
                     else
                     {
                         ViewBag.Error = "Picture is not JPG";
-                        return View();
+                        return View(employee);
                     }
                 }
                 else
@@ -111,10 +126,10 @@ namespace Alga1.Controllers
                 }
             }
 
-
-
             db.Employee.Add(employee);
+            log.Info("Updating database ...");
             db.SaveChanges();
+            log.Info("New employee id=" + employee.Id + " saved to database");
             return RedirectToAction("Index");
         }
         #endregion
@@ -154,14 +169,15 @@ namespace Alga1.Controllers
         [Authorize(Roles = RoleName.Admin)]
         public ActionResult Edit([Bind(Include = "Id,Name,Surname,SalaryNet,ChildrenNo,RaisesChildrenAlone,SalaryGross", Exclude = "EmployeePhoto")] Employee employee, HttpPostedFileBase fileImage)
         {
+            log.Info("Request to update user Id " + employee.Id + " " + employee.Name + " " + employee.Surname);
             if (!ModelState.IsValid) return View(employee);
-
 
             var empolyeeInDb = db.Employee.Single(c => c.Id == employee.Id);
             employee.EmployeePhoto = empolyeeInDb.EmployeePhoto;
 
             if (fileImage != null)
             {
+                log.Info("File is attached: " + fileImage.FileName);
                 if (fileImage.ContentLength > 0 && fileImage.ContentLength < 512000)
                 {
                     var fileExt = Path.GetExtension(fileImage.FileName);
@@ -174,7 +190,7 @@ namespace Alga1.Controllers
                     else
                     {
                         ViewBag.Error = "Picture is not JPG";
-                        return View();
+                        return View(employee);
                     }
                 }
                 else
@@ -190,7 +206,9 @@ namespace Alga1.Controllers
             empolyeeInDb.ChildrenNo = employee.ChildrenNo;
             empolyeeInDb.RaisesChildrenAlone = employee.RaisesChildrenAlone;
 
+            log.Info("Updating database ...");
             db.SaveChanges();
+            log.Info("Employee new info saved to database");
             return RedirectToAction("Index");
 
 
@@ -224,15 +242,50 @@ namespace Alga1.Controllers
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = RoleName.Admin)]
-        public ActionResult DeleteConfirmed(int id)
+        public ActionResult DeleteConfirmed(int? id)
         {
+            log.Info("Employee id=" + id + " delete request from " + User.Identity.GetUserId());
+
+            //check if link is with Id
+            if (id == null) return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+
+
+            var applicationUser = db.Users.Where(c => c.Employee.Id == id.Value).SingleOrDefault(e => e.Employee.Id == id);
             Employee employee = db.Employee.Find(id);
-            db.Employee.Remove(employee);
-            db.SaveChanges();
+
+            if (applicationUser != null)
+            {
+                var applicationUserId = db.Users.Find(applicationUser.Id);
+                db.Users.Remove(applicationUserId);
+                db.Employee.Remove(employee);
+            }
+
+            else
+            {
+                if (employee == null) return HttpNotFound();
+
+                db.Employee.Remove(employee);
+            }
+
+            log.Info("Updating database ...");
+            try
+            {
+                db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                log.Error("Can not delete user. Error: ", ex);
+                return View(employee);
+            }
+
+            log.Info("Employee id=" + id + " deleted from database");
             return RedirectToAction("Index");
         }
 
         #endregion
+
+
+
 
         protected override void Dispose(bool disposing)
         {
@@ -269,13 +322,14 @@ namespace Alga1.Controllers
             Employee employee = db.Employee.Find(id);
             if (employee != null)
             {
-                byte[] imgBytes = employee.EmployeePhoto;
-                return File(employee.EmployeePhoto, ".jpg");
+                if (employee.EmployeePhoto != null)
+                {
+                    return File(employee.EmployeePhoto, ".jpg");
+                }
+
             }
-            else
-            {
-                return null;
-            }
+            return null;
+
         }
 
         #endregion
