@@ -8,6 +8,8 @@ namespace Alga1.Models
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
+
+        public Employee Employee { get; set; }
     }
 
     public class ExternalLoginListViewModel

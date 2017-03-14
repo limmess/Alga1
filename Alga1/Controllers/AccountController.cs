@@ -380,7 +380,7 @@ namespace Alga1.Controllers
                 {
                     return View("ExternalLoginFailure");
                 }
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, Employee = model.Employee };
                 var result = await UserManager.CreateAsync(user);
                 if (result.Succeeded)
                 {
@@ -388,7 +388,8 @@ namespace Alga1.Controllers
                     if (result.Succeeded)
                     {
                         await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
-                        return RedirectToLocal(returnUrl);
+                        return RedirectToAction("Index", "Home");
+                        //return RedirectToLocal(returnUrl);
                     }
                 }
                 AddErrors(result);

@@ -377,6 +377,9 @@
     <Content Include="Content\DataTables\css\mixins.scss" />
     <Content Include="Content\DataTables\css\common.scss" />
     <Content Include="ClassDiagram1.cd" />
+    <None Include="Properties\PublishProfiles\Alga %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Alga.pubxml" />
+    <None Include="Properties\PublishProfiles\Alga1Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\DataTables\autoFill.bootstrap.js" />
     <Content Include="Scripts\DataTables\autoFill.bootstrap.min.js" />
@@ -542,6 +545,9 @@
     <EmbeddedResource Include="Migrations\201703111602549_ChangeModel2.resx">
       <DependentUpon>201703111602549_ChangeModel2.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
