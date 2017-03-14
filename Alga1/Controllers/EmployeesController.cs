@@ -310,8 +310,9 @@ namespace Alga1.Controllers
                 file.InputStream.Position = 0; //reset InputStream  reader position to 0
                 result = true;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
+                log.Info("Uploaded file is not image");
                 result = false;
             }
             return result;

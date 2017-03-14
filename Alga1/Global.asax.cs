@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Alga1.Common;
+using System;
 using System.Globalization;
 using System.Threading;
 using System.Web.Mvc;
@@ -15,6 +16,8 @@ namespace Alga1
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            ModelBinders.Binders.Add(typeof(decimal), new DecimalModelBinder());
+            ModelBinders.Binders.Add(typeof(decimal?), new DecimalModelBinder());
         }
 
 

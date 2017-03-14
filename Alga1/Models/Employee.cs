@@ -19,6 +19,7 @@ namespace Alga1.Models
         [Required]
         [Display(Name = "Salary NET")]
         [DataType(DataType.Currency)]
+        [Range(0, 9999999999999999, ErrorMessage = "Alowed range is 0 ...9999999999999999")]
         public decimal SalaryNet { get; set; }
 
         [Required]
@@ -29,7 +30,7 @@ namespace Alga1.Models
         [Display(Name = "Raises Children Alone")]
         public bool RaisesChildrenAlone { get; set; }
 
-        [Range(0, 9999999999999999, ErrorMessage = "Alowed range is 0 ...9999999999999999")]
+
         [Display(Name = "Salary Gross")]
         [DataType(DataType.Currency)]
         public decimal SalaryGross => Models.SalaryGross.Gross(SalaryNet, ChildrenNo, RaisesChildrenAlone);
