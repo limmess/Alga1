@@ -414,3 +414,15 @@ The statement has been terminated.
 2017-03-14 20:27:14,084 [46] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
 2017-03-14 20:27:14,125 [46] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
 2017-03-14 20:27:14,125 [46] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 20:51:15,230 [31] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
+2017-03-15 20:51:28,470 [8] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
+2017-03-15 20:51:28,536 [31] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 20:51:28,814 [31] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 20:51:28,814 [31] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 21:23:32,998 [41] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 21:23:34,288 [41] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 21:23:34,288 [41] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 21:24:36,858 [40] INFO Alga1.Controllers.AccountController - User login atempt: guest@alga.com
+2017-03-15 21:24:37,257 [40] INFO Alga1.Controllers.AccountController - User guest@alga.com logged in
+2017-03-15 21:24:48,704 [46] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
+2017-03-15 21:24:48,760 [40] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
