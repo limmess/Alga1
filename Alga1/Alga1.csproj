@@ -518,9 +518,6 @@
     <Content Include="Views\Roles\Edit.cshtml" />
     <Content Include="Views\Roles\Index.cshtml" />
     <Content Include="Views\Roles\ManageUserRoles.cshtml" />
-    <None Include="Web.Test.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

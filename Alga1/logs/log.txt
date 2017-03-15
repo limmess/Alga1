@@ -1,428 +1,127 @@
-2017-03-13 20:36:41,582 [14] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 20:36:43,469 [14] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 20:36:43,470 [14] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 20:36:53,229 [26] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 20:36:53,243 [26] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 20:36:53,243 [26] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 20:36:58,694 [12] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 20:36:58,705 [12] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 20:36:58,705 [12] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 20:37:03,703 [24] INFO Alga1.Controllers.EmployeesController - Employee id=20 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 20:37:03,710 [24] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 20:37:03,761 [24] INFO Alga1.Controllers.EmployeesController - Employee id=20 deleted from database
-2017-03-13 20:37:03,771 [16] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 20:37:03,776 [16] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 20:37:03,776 [16] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 20:37:47,204 [24] INFO Alga1.Controllers.EmployeesController - Request to create new user from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 20:37:47,205 [24] INFO Alga1.Controllers.EmployeesController - File is attached to create request
-2017-03-13 20:37:47,205 [24] INFO Alga1.Controllers.EmployeesController - User uploaded file: !!avatarbmp1.jpg
-2017-03-13 20:37:47,211 [24] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 20:37:47,267 [24] INFO Alga1.Controllers.EmployeesController - New employee id=21 saved to database
-2017-03-13 20:37:47,271 [28] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 20:37:47,292 [28] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 20:37:47,292 [28] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 20:46:03,370 [12] INFO Alga1.Controllers.AccountController - New user register atempt: testas@trinti.com
-2017-03-13 20:46:06,314 [28] INFO Alga1.Controllers.AccountController - new user created: testas@trinti.com
-2017-03-13 20:46:42,583 [16] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
-2017-03-13 20:46:42,656 [26] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
-2017-03-13 20:47:00,954 [26] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 20:47:00,961 [26] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 20:47:00,962 [26] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 20:47:14,245 [16] INFO Alga1.Controllers.EmployeesController - Employee id=22 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 20:47:14,251 [16] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 20:47:28,583 [28] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 20:47:28,589 [28] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 20:47:28,589 [28] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 20:51:46,977 [24] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 20:51:47,489 [24] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 20:51:47,489 [24] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 20:51:50,905 [12] INFO Alga1.Controllers.EmployeesController - Employee id=21 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 20:51:50,908 [12] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 20:51:50,948 [12] INFO Alga1.Controllers.EmployeesController - Employee id=21 deleted from database
-2017-03-13 20:51:50,959 [16] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 20:51:50,964 [16] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 20:51:50,964 [16] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 20:54:33,569 [16] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 20:54:33,609 [16] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 20:54:33,610 [16] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 20:54:37,271 [36] INFO Alga1.Controllers.EmployeesController - Employee id=22 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 20:54:37,294 [36] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 20:54:37,415 [36] ERROR Alga1.Controllers.EmployeesController - Can not delete user. Error: 
-System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_dbo.AspNetUsers_dbo.Employees_Employee_Id". The conflict occurred in database "aspnet-Alga1-20170307091118", table "dbo.AspNetUsers", column 'Employee_Id'.
-The statement has been terminated.
-   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
-   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
-   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
-   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
-   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
-   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
-   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
-   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
-   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
-   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
-   --- End of inner exception stack trace ---
-   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
-   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
-   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
-   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
-   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
-   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
-   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
-   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
-   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
-   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
-   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
-   at System.Data.Entity.Internal.InternalContext.SaveChanges()
-   --- End of inner exception stack trace ---
-   at System.Data.Entity.Internal.InternalContext.SaveChanges()
-   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
-   at System.Data.Entity.DbContext.SaveChanges()
-   at Alga1.Controllers.EmployeesController.DeleteConfirmed(Nullable`1 id) in C:\Users\Seima\Documents\Visual Studio 2015\Projects\Alga1\Alga1\Controllers\EmployeesController.cs:line 264
-2017-03-13 20:54:39,127 [38] INFO Alga1.Controllers.EmployeesController - Employee id=22 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 20:54:39,129 [38] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 20:54:39,131 [38] ERROR Alga1.Controllers.EmployeesController - Can not delete user. Error: 
-System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_dbo.AspNetUsers_dbo.Employees_Employee_Id". The conflict occurred in database "aspnet-Alga1-20170307091118", table "dbo.AspNetUsers", column 'Employee_Id'.
-The statement has been terminated.
-   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
-   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
-   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
-   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
-   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
-   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
-   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
-   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
-   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
-   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
-   --- End of inner exception stack trace ---
-   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
-   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
-   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
-   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
-   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
-   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
-   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
-   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
-   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
-   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
-   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
-   at System.Data.Entity.Internal.InternalContext.SaveChanges()
-   --- End of inner exception stack trace ---
-   at System.Data.Entity.Internal.InternalContext.SaveChanges()
-   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
-   at System.Data.Entity.DbContext.SaveChanges()
-   at Alga1.Controllers.EmployeesController.DeleteConfirmed(Nullable`1 id) in C:\Users\Seima\Documents\Visual Studio 2015\Projects\Alga1\Alga1\Controllers\EmployeesController.cs:line 264
-2017-03-13 21:05:22,698 [8] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 21:05:23,068 [8] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 21:05:23,069 [8] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 21:06:10,529 [5] INFO Alga1.Controllers.EmployeesController - Employee id=22 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 21:09:29,182 [8] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 21:09:29,693 [8] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 21:09:29,693 [8] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 21:11:22,227 [11] INFO Alga1.Controllers.EmployeesController - Employee id=22 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 21:15:12,430 [7] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 21:15:12,766 [7] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 21:15:12,766 [7] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 21:15:20,696 [5] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 21:15:20,708 [5] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 21:15:20,708 [5] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 21:15:23,803 [7] INFO Alga1.Controllers.EmployeesController - Employee id=22 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 21:49:09,096 [8] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 21:49:09,118 [8] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 21:49:09,118 [8] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 21:49:25,054 [11] INFO Alga1.Controllers.EmployeesController - Request to create new user from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 21:49:25,055 [11] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 21:49:25,179 [11] INFO Alga1.Controllers.EmployeesController - New employee id=23 saved to database
-2017-03-13 21:49:25,201 [8] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 21:49:25,206 [8] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 21:49:25,206 [8] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 21:57:20,470 [7] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
-2017-03-13 21:57:21,109 [7] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
-2017-03-13 21:57:21,143 [11] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 21:57:21,158 [11] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 21:57:21,158 [11] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 21:57:27,125 [8] INFO Alga1.Controllers.EmployeesController - Employee id=22 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 21:58:56,968 [5] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 21:58:57,515 [5] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 21:58:57,515 [5] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 21:59:04,653 [9] INFO Alga1.Controllers.EmployeesController - Employee id=22 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 22:01:33,760 [5] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:01:34,216 [5] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:01:34,216 [5] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:02:26,566 [10] INFO Alga1.Controllers.EmployeesController - Employee id=22 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 22:03:42,469 [8] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:03:42,938 [8] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:03:42,939 [8] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:03:50,526 [8] INFO Alga1.Controllers.EmployeesController - Employee id=22 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 22:04:39,656 [8] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 22:04:42,492 [8] INFO Alga1.Controllers.EmployeesController - Employee id=22 deleted from database
-2017-03-13 22:04:42,519 [12] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:04:42,524 [12] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:04:42,524 [12] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:05:11,781 [13] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:05:11,786 [13] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:05:11,786 [13] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:05:16,515 [13] INFO Alga1.Controllers.EmployeesController - Employee id=22 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 22:27:47,153 [6] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:27:47,175 [6] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:27:47,175 [6] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:29:22,284 [12] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:29:22,288 [12] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:29:22,288 [12] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:29:27,001 [6] INFO Alga1.Controllers.EmployeesController - Employee id=22 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 22:30:39,937 [6] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:30:40,409 [6] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:30:40,409 [6] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:30:45,156 [9] INFO Alga1.Controllers.EmployeesController - Employee id=22 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 22:31:17,648 [9] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 22:31:17,696 [9] INFO Alga1.Controllers.EmployeesController - Employee id=22 deleted from database
-2017-03-13 22:31:17,707 [7] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:31:17,712 [7] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:31:17,712 [7] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:33:51,930 [18] INFO Alga1.Controllers.EmployeesController - Employee id=23 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 22:33:54,041 [18] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 22:33:54,064 [18] INFO Alga1.Controllers.EmployeesController - Employee id=23 deleted from database
-2017-03-13 22:33:54,084 [18] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:33:54,088 [18] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:33:54,088 [18] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:34:09,446 [19] INFO Alga1.Controllers.EmployeesController - Request to create new user from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 22:34:09,447 [19] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 22:34:09,485 [19] INFO Alga1.Controllers.EmployeesController - New employee id=24 saved to database
-2017-03-13 22:34:09,490 [18] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:34:09,512 [18] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:34:09,512 [18] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:34:30,415 [8] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:34:30,924 [8] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:34:30,924 [8] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:35:41,632 [7] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:35:44,372 [7] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:35:44,372 [7] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:35:50,017 [5] INFO Alga1.Controllers.EmployeesController - Employee id=24 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 22:35:50,110 [5] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 22:35:50,243 [5] INFO Alga1.Controllers.EmployeesController - Employee id=24 deleted from database
-2017-03-13 22:35:50,274 [6] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:35:50,287 [6] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:35:50,287 [6] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:36:18,480 [13] INFO Alga1.Controllers.AccountController - New user register atempt: test@trinti.lt
-2017-03-13 22:36:19,054 [8] INFO Alga1.Controllers.AccountController - new user created: test@trinti.lt
-2017-03-13 22:36:35,351 [7] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
-2017-03-13 22:36:35,416 [6] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
-2017-03-13 22:36:36,858 [5] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:36:36,862 [5] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:36:36,863 [5] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:36:43,889 [6] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:36:43,937 [6] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:36:43,937 [6] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:36:48,110 [8] INFO Alga1.Controllers.EmployeesController - Employee id=25 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 22:36:48,125 [8] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 22:36:48,230 [8] INFO Alga1.Controllers.EmployeesController - Employee id=25 deleted from database
-2017-03-13 22:36:48,240 [6] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:36:48,251 [6] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:36:48,251 [6] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:36:57,634 [7] INFO Alga1.Controllers.EmployeesController - Employee id=25 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 22:36:57,638 [7] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 22:36:57,673 [7] INFO Alga1.Controllers.EmployeesController - Employee id=25 deleted from database
-2017-03-13 22:36:57,678 [13] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:36:57,684 [13] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:36:57,684 [13] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:45:18,209 [17] INFO Alga1.Controllers.AccountController - New user register atempt: jou@trinti.lt
-2017-03-13 22:45:18,854 [17] INFO Alga1.Controllers.AccountController - new user created: jou@trinti.lt
-2017-03-13 22:45:28,177 [6] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
-2017-03-13 22:45:28,223 [6] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
-2017-03-13 22:45:30,102 [16] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:45:30,127 [16] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:45:30,127 [16] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:45:39,251 [22] INFO Alga1.Controllers.EmployeesController - Request to update user Id 26 rtyrt rty
-2017-03-13 22:45:39,256 [22] INFO Alga1.Controllers.EmployeesController - File is attached: !!avatarbmp1.jpg
-2017-03-13 22:45:39,265 [22] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 22:45:39,318 [22] INFO Alga1.Controllers.EmployeesController - Employee new info saved to database
-2017-03-13 22:45:39,326 [6] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:45:39,330 [6] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:45:39,330 [6] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:45:44,651 [17] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:45:44,686 [17] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:45:44,686 [17] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-13 22:45:48,055 [6] INFO Alga1.Controllers.EmployeesController - Employee id=26 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-13 22:45:48,064 [6] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-13 22:45:48,092 [6] INFO Alga1.Controllers.EmployeesController - Employee id=26 deleted from database
-2017-03-13 22:45:48,098 [17] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-13 22:45:48,102 [17] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-13 22:45:48,103 [17] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:11:13,113 [6] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
-2017-03-14 19:11:13,232 [6] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
-2017-03-14 19:13:56,818 [17] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:13:59,775 [17] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:13:59,776 [17] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:21:10,030 [7] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:21:10,889 [7] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:21:10,889 [7] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:23:35,801 [17] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
-2017-03-14 19:23:35,947 [16] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
-2017-03-14 19:23:35,955 [16] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:23:35,959 [16] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:23:35,959 [16] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:23:46,416 [10] INFO Alga1.Controllers.EmployeesController - Request to update user Id 27 faceb face
-2017-03-14 19:23:46,421 [10] INFO Alga1.Controllers.EmployeesController - File is attached: !!avatar.jpg
-2017-03-14 19:23:46,432 [10] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-14 19:23:46,518 [10] INFO Alga1.Controllers.EmployeesController - Employee new info saved to database
-2017-03-14 19:23:46,535 [17] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:23:46,560 [17] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:23:46,560 [17] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:24:32,989 [12] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:24:33,010 [12] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:24:33,011 [12] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Employee
-2017-03-14 19:24:33,018 [12] DEBUG Alga1.Controllers.EmployeesController - Got current logged EmployeeId27
-2017-03-14 19:24:38,460 [22] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:24:38,465 [22] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:24:38,465 [22] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Employee
-2017-03-14 19:24:38,469 [22] DEBUG Alga1.Controllers.EmployeesController - Got current logged EmployeeId27
-2017-03-14 19:24:44,650 [22] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
-2017-03-14 19:24:44,674 [23] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
-2017-03-14 19:24:46,164 [5] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:24:46,169 [5] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:24:46,169 [5] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:26:44,886 [38] INFO Alga1.Controllers.EmployeesController - Employee id=27 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-14 19:26:44,897 [38] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-14 19:26:44,932 [38] INFO Alga1.Controllers.EmployeesController - Employee id=27 deleted from database
-2017-03-14 19:26:44,939 [26] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:26:44,944 [26] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:26:44,944 [26] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:27:56,803 [39] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
-2017-03-14 19:27:56,833 [27] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
-2017-03-14 19:27:58,260 [36] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:27:58,285 [36] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:27:58,285 [36] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:43:11,958 [8] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:43:12,327 [8] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:43:12,327 [8] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:46:02,283 [10] INFO Alga1.Controllers.EmployeesController - Request to update user Id 4 Manager sManager
-2017-03-14 19:46:02,287 [10] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-14 19:46:02,403 [10] INFO Alga1.Controllers.EmployeesController - Employee new info saved to database
-2017-03-14 19:46:02,413 [10] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:46:02,417 [10] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:46:02,417 [10] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:46:17,081 [11] INFO Alga1.Controllers.EmployeesController - Request to update user Id 4 Manager sManager
-2017-03-14 19:46:17,083 [11] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-14 19:46:17,103 [11] INFO Alga1.Controllers.EmployeesController - Employee new info saved to database
-2017-03-14 19:46:17,109 [7] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:46:17,112 [7] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:46:17,112 [7] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:46:34,648 [11] INFO Alga1.Controllers.EmployeesController - Request to update user Id 4 Manager sManager
-2017-03-14 19:46:34,666 [11] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-14 19:46:34,696 [11] INFO Alga1.Controllers.EmployeesController - Employee new info saved to database
-2017-03-14 19:46:34,705 [7] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:46:34,708 [7] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:46:34,708 [7] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:46:43,973 [11] INFO Alga1.Controllers.EmployeesController - Request to update user Id 4 Manager sManager
-2017-03-14 19:46:43,976 [11] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-14 19:46:44,885 [11] INFO Alga1.Controllers.EmployeesController - Employee new info saved to database
-2017-03-14 19:46:44,899 [7] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:46:44,910 [7] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:46:44,910 [7] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:50:51,671 [6] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:50:52,215 [6] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:50:52,216 [6] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:51:06,057 [6] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:51:06,061 [6] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:51:06,061 [6] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:51:27,800 [10] INFO Alga1.Controllers.EmployeesController - Request to update user Id 4 Manager sManager
-2017-03-14 19:51:27,804 [10] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-14 19:51:27,884 [10] INFO Alga1.Controllers.EmployeesController - Employee new info saved to database
-2017-03-14 19:51:27,914 [7] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:51:27,925 [7] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:51:27,926 [7] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:51:47,902 [17] INFO Alga1.Controllers.EmployeesController - Request to update user Id 1 Admin Administratorius
-2017-03-14 19:51:47,908 [17] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-14 19:51:47,960 [17] INFO Alga1.Controllers.EmployeesController - Employee new info saved to database
-2017-03-14 19:51:47,979 [8] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:51:47,990 [8] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:51:47,990 [8] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:51:53,399 [16] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:51:53,406 [16] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:51:53,406 [16] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:52:05,078 [10] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:52:05,113 [10] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:52:05,113 [10] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:52:20,686 [7] INFO Alga1.Controllers.EmployeesController - Request to update user Id 15 Employee b sEmployee b
-2017-03-14 19:52:20,689 [7] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-14 19:52:20,746 [7] INFO Alga1.Controllers.EmployeesController - Employee new info saved to database
-2017-03-14 19:52:20,757 [13] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:52:20,769 [13] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:52:20,769 [13] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:52:28,235 [10] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:52:28,247 [10] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:52:28,247 [10] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:53:35,846 [7] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
-2017-03-14 19:53:35,881 [13] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
-2017-03-14 19:53:59,901 [23] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:53:59,913 [23] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:53:59,913 [23] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Employee
-2017-03-14 19:53:59,920 [23] DEBUG Alga1.Controllers.EmployeesController - Got current logged EmployeeId28
-2017-03-14 19:54:10,502 [17] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:54:10,513 [17] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:54:10,513 [17] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Employee
-2017-03-14 19:54:10,520 [17] DEBUG Alga1.Controllers.EmployeesController - Got current logged EmployeeId28
-2017-03-14 19:54:14,325 [10] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
-2017-03-14 19:54:14,345 [7] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
-2017-03-14 19:54:16,188 [22] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:54:16,200 [22] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:54:16,200 [22] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:54:37,104 [11] INFO Alga1.Controllers.EmployeesController - Request to update user Id 28 face faceb
-2017-03-14 19:54:37,106 [11] INFO Alga1.Controllers.EmployeesController - File is attached: !!avatar.jpg
-2017-03-14 19:54:37,118 [11] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-14 19:54:37,134 [11] INFO Alga1.Controllers.EmployeesController - Employee new info saved to database
-2017-03-14 19:54:37,140 [10] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:54:37,164 [10] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:54:37,164 [10] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:57:05,898 [12] INFO Alga1.Controllers.EmployeesController - Request to update user Id 1 Admin Administratorius
-2017-03-14 19:57:47,318 [12] INFO Alga1.Controllers.EmployeesController - Request to update user Id 1 Admin Administratorius
-2017-03-14 19:57:47,321 [12] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-14 19:57:47,356 [12] INFO Alga1.Controllers.EmployeesController - Employee new info saved to database
-2017-03-14 19:57:47,363 [16] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:57:47,369 [16] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:57:47,369 [16] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 19:58:15,800 [17] INFO Alga1.Controllers.EmployeesController - Request to update user Id 1 Admin Administratorius
-2017-03-14 19:58:30,866 [5] INFO Alga1.Controllers.EmployeesController - Request to update user Id 1 Admin Administratorius
-2017-03-14 19:58:30,868 [5] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-14 19:58:30,907 [5] INFO Alga1.Controllers.EmployeesController - Employee new info saved to database
-2017-03-14 19:58:30,919 [12] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 19:58:30,933 [12] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 19:58:30,933 [12] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 20:26:16,483 [32] INFO Alga1.Controllers.AccountController - New user register atempt: admin@alga.com
-2017-03-14 20:26:55,790 [46] INFO Alga1.Controllers.AccountController - New user register atempt: trynti@alga.com
-2017-03-14 20:26:56,142 [47] INFO Alga1.Controllers.AccountController - new user created: trynti@alga.com
-2017-03-14 20:27:04,522 [57] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
-2017-03-14 20:27:04,569 [59] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
-2017-03-14 20:27:04,575 [46] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 20:27:04,589 [46] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 20:27:04,589 [46] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 20:27:10,950 [58] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 20:27:10,963 [58] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 20:27:10,963 [58] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-14 20:27:13,799 [57] INFO Alga1.Controllers.EmployeesController - Employee id=29 delete request from 4615ffe7-3fb6-4756-9c50-5fb9fb5e7cc6
-2017-03-14 20:27:13,831 [57] INFO Alga1.Controllers.EmployeesController - Updating database ...
-2017-03-14 20:27:14,073 [57] INFO Alga1.Controllers.EmployeesController - Employee id=29 deleted from database
-2017-03-14 20:27:14,084 [46] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-14 20:27:14,125 [46] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-14 20:27:14,125 [46] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-15 20:51:15,230 [31] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
-2017-03-15 20:51:28,470 [8] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
-2017-03-15 20:51:28,536 [31] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-15 20:51:28,814 [31] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-15 20:51:28,814 [31] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-15 21:23:32,998 [41] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
-2017-03-15 21:23:34,288 [41] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
-2017-03-15 21:23:34,288 [41] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
-2017-03-15 21:24:36,858 [40] INFO Alga1.Controllers.AccountController - User login atempt: guest@alga.com
-2017-03-15 21:24:37,257 [40] INFO Alga1.Controllers.AccountController - User guest@alga.com logged in
-2017-03-15 21:24:48,704 [46] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
-2017-03-15 21:24:48,760 [40] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
+2017-03-15 22:13:14,872 [68] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:13:28,623 [68] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:13:28,624 [68] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:14:42,732 [71] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:14:42,739 [71] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:14:42,739 [71] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:15:04,724 [53] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:15:04,759 [53] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:15:04,759 [53] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:21:00,746 [64] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:21:01,513 [64] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:21:01,513 [64] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:21:43,026 [63] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:21:43,066 [63] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:21:43,066 [63] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:22:12,741 [68] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:22:12,760 [68] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:22:12,761 [68] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:23:46,217 [67] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:23:46,243 [67] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:23:46,243 [67] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:25:37,009 [64] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:25:37,013 [64] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:25:37,013 [64] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:26:54,851 [64] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:26:54,856 [64] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:26:54,856 [64] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:27:06,890 [62] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:27:06,927 [62] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:27:06,928 [62] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:27:41,649 [64] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:27:41,655 [64] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:27:41,655 [64] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:27:50,929 [66] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:27:50,935 [66] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:27:50,935 [66] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:28:21,340 [66] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:28:21,345 [66] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:28:21,345 [66] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:30:29,895 [66] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:30:29,914 [66] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:30:29,914 [66] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:31:04,215 [66] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:31:04,220 [66] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:31:04,220 [66] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:31:24,754 [64] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:31:24,760 [64] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:31:24,760 [64] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:35:13,644 [40] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:35:14,226 [40] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:35:14,226 [40] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:35:37,418 [40] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:35:37,445 [40] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:35:37,445 [40] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:38:37,605 [53] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:38:37,612 [53] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:38:37,612 [53] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:39:19,109 [53] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:39:20,251 [53] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:39:20,252 [53] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:41:04,571 [40] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:41:04,577 [40] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:41:04,577 [40] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:42:16,657 [68] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:42:16,677 [68] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:42:16,677 [68] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:42:37,650 [61] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:42:37,659 [61] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:42:37,659 [61] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:44:42,860 [59] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:44:42,865 [59] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:44:42,865 [59] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:45:48,852 [65] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:45:48,857 [65] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:45:48,857 [65] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:48:28,026 [59] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:48:28,051 [59] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:48:28,052 [59] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:49:05,396 [63] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:49:05,406 [63] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:49:05,406 [63] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:50:04,959 [63] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:50:04,994 [63] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:50:04,994 [63] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:50:35,911 [63] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:50:35,918 [63] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:50:35,918 [63] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:52:31,225 [43] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:52:31,237 [43] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:52:31,237 [43] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:55:05,597 [43] INFO Alga1.Controllers.AccountController - User login atempt: manager@alga.com
+2017-03-15 22:55:14,199 [32] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
+2017-03-15 22:55:14,356 [57] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
+2017-03-15 22:55:54,485 [57] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:55:54,515 [57] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:55:54,515 [57] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Employee
+2017-03-15 22:55:54,522 [57] DEBUG Alga1.Controllers.EmployeesController - Got current logged EmployeeId28
+2017-03-15 22:56:06,099 [62] INFO Alga1.Controllers.AccountController - User login atempt: linas@alga.com
+2017-03-15 22:56:10,841 [57] INFO Alga1.Controllers.AccountController - User login atempt: linas@alga.com
+2017-03-15 22:56:16,074 [56] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
+2017-03-15 22:56:16,095 [56] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
+2017-03-15 22:56:17,392 [56] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:56:17,405 [56] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:56:17,405 [56] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Admin
+2017-03-15 22:56:38,917 [43] INFO Alga1.Controllers.AccountController - User login atempt: lina@salga.com
+2017-03-15 22:56:46,503 [56] INFO Alga1.Controllers.AccountController - User login atempt: linas@alga.com
+2017-03-15 22:57:02,646 [35] INFO Alga1.Controllers.AccountController - User login atempt: linas@alga.com
+2017-03-15 22:57:12,100 [32] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
+2017-03-15 22:57:12,121 [35] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
+2017-03-15 22:57:34,618 [57] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:57:34,626 [57] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:57:34,626 [57] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Employee
+2017-03-15 22:57:34,629 [57] DEBUG Alga1.Controllers.EmployeesController - Got current logged EmployeeId28
+2017-03-15 22:57:37,686 [56] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:57:37,714 [56] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:57:37,714 [56] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Employee
+2017-03-15 22:57:37,716 [56] DEBUG Alga1.Controllers.EmployeesController - Got current logged EmployeeId28
+2017-03-15 22:57:45,906 [65] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:57:45,919 [65] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:57:45,919 [65] DEBUG Alga1.Controllers.EmployeesController - Check if user role is Employee
+2017-03-15 22:57:45,928 [65] DEBUG Alga1.Controllers.EmployeesController - Got current logged EmployeeId28
+2017-03-15 22:57:49,034 [62] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
+2017-03-15 22:57:49,055 [56] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
+2017-03-15 22:58:18,459 [64] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:58:18,484 [64] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 22:58:43,616 [35] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
+2017-03-15 22:58:43,622 [35] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database

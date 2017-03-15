@@ -45,11 +45,13 @@
     <script>
         $(document).ready(function() {
             $("#table_id").DataTable({
-                columnsDefs: [
+                columns: [
+                    null,
+                    null,
+                    null,
                     {
-                        targets: 2,
-                        type: "num-fmt"
-
+                        orderable: false,
+                        searchable: false
                     }
                 ],
                 language: {
