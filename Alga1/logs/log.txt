@@ -125,3 +125,5 @@
 2017-03-15 22:58:18,484 [64] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
 2017-03-15 22:58:43,616 [35] DEBUG Alga1.Controllers.EmployeesController - Action Index has been fired.
 2017-03-15 22:58:43,622 [35] DEBUG Alga1.Controllers.EmployeesController - Eployee list been read from database
+2017-03-15 23:02:08,001 [68] INFO Alga1.Controllers.AccountController - User login atempt: admin@alga.com
+2017-03-15 23:02:11,927 [55] INFO Alga1.Controllers.AccountController - User admin@alga.com logged in
